@@ -70,7 +70,7 @@ func readOp(program []byte, pIndex *int) {
 	case '.':
 		fmt.Print(string(memory[mIndex]))
 	default:
-		log.Fatal(errors.New("invalid operation"))
+		// log.Fatal(errors.New("invalid operation"))
 	}
 }
 
